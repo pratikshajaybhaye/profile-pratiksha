@@ -4,19 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>INDEX</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <style>
       header {
         background-color: rgb(12, 229, 236);
         color: rgb(109, 47, 47);
         font-size: large;
         font-weight: bolder;
+        text-align: right;
       }
-      span{
+      header img {
+        width: 20px;
+        height: 20px;
+      }
+      span {
         margin-right: 40px;
       }
       nav a {
         margin-right: 40px;
         text-decoration: none;
+        font-family: "Oswald", sans-serif;
       }
       #Homelink {
         margin-left: 20px;
@@ -26,21 +38,32 @@
         margin-right: 40px;
         text-transform: none;
       }
-      .link{
+      .link {
         margin-left: 20px;
         margin-right: 30px;
         text-decoration: none;
-
       }
+      #logo {
+        z-index: 100;
+        position: fixed;
+        height:20px;
+        width:20px;      }
     </style>
   </head>
   <body>
     <h2>Web Design</h2>
     <header>
-        <span>Name: Pratiksha Jaybhaye</span>
-        <span>Mobile Number: 9967562274</span>
-        <span>Email:pratikshajaybhaye1210@gmail.com</span>
-      
+      <div id="logo"><img src="assests/Devloper.jpg" alt="" /></div>
+      <span>
+        <i class="fa fa-user" aria-hidden="true"></i> Pratiksha Jaybhaye</span
+      >
+      <span
+        ><i class="fa fa-phone-square" aria-hidden="true"></i> 9967562274</span
+      >
+      <span
+        ><i class="fa fa-envelope" aria-hidden="true"></i>
+        pratikshajaybhaye1210@gmail.com</span
+      >
     </header>
     <hr />
     <nav>
@@ -56,14 +79,25 @@
       name="mainFrame"
       frameborder="0"
       width="900px"
-      height="450px">
-    </iframe>\
-    <hr>
+      height="450px"
+    >
+    </iframe
+    >\
+    <hr />
     <footer>
-      <a href="https://in.linkedin.com" target="_blank" class="link">LINKED IN</a>
-      <a href="https://github.com/pratikshajaybhaye/profile-pratiksha" target="_blank" class="link">GitHub</a>
-      <a href="https://www.naukri.com/ " target="_blank" class="link">Naukri</a>
+      <a href="https://in.linkedin.com" target="_blank" class="link"
+        ><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+      </a>
+      <a
+        href="https://github.com/pratikshajaybhaye/profile-pratiksha"
+        target="_blank"
+        class="link"
+        ><i class="fa fa-github-square" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.naukri.com/ " target="_blank" class="link"
+        ><i class="fa fa-industry" aria-hidden="true"></i>
+      </a>
     </footer>
-    <hr>
+    <hr />
   </body>
 </html>
