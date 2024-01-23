@@ -1,0 +1,32 @@
+
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+.heading {
+padding: 20px 40px;
+}
+
+.green{
+    background-color: green;
+    font-size: 1.5em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.orange{
+    background-color: orange;
+    font-size: 1.5em;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+td p {
+    font-size: large;
+    padding: 10px;
+}
